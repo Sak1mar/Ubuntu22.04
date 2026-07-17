@@ -1,0 +1,664 @@
+{
+  "archive_kind": "PRE_PHASE1_SERVER_EXECUTION_BUNDLE",
+  "archive_root": "ScreenBUS",
+  "created_at": "2026-07-17T12:56:32+00:00",
+  "excluded": [
+    ".git",
+    "raw data",
+    "weights",
+    "virtual environments",
+    "runtime state and logs",
+    "result archives",
+    "checkpoints",
+    "caches",
+    "pycache"
+  ],
+  "execution_status": {
+    "engineering_a0": "NOT_RUN",
+    "phase1": "NOT_RUN",
+    "phase2": "NOT_RUN",
+    "scientific_decision": "NO_DECISION"
+  },
+  "file_count": 106,
+  "files": [
+    {
+      "bytes": 322,
+      "executable": false,
+      "path": ".gitignore",
+      "sha256": "f416f7dbb347d6cc40b280bcb241575dc50462f5a1a8c9ed62e0e009e923636e"
+    },
+    {
+      "bytes": 713,
+      "executable": false,
+      "path": "README_PRE_A0_V2_1_CN.md",
+      "sha256": "7deeece18140e82b84c6410770b0b3713daf885e52b6d2372dee99fdc0740019"
+    },
+    {
+      "bytes": 877,
+      "executable": false,
+      "path": "README_UPLOAD_CN.md",
+      "sha256": "d3d037a2402edca327a3abbae672fdf8304669ed2e8a801bf1619b622a4d14d6"
+    },
+    {
+      "bytes": 1529,
+      "executable": false,
+      "path": "artifacts/data/busuclm_server_fetch_selection_probe.json",
+      "sha256": "a6ef507ed86e2c759d36e216302ed438d17d47b740aa7ff6f779f4812eb83bc5"
+    },
+    {
+      "bytes": 855,
+      "executable": false,
+      "path": "artifacts/weights/server_torchvision_hash_verification.json",
+      "sha256": "d786d09d888958c3a1746405ac2fa1201616d4076b0e12492f22bca400839aed"
+    },
+    {
+      "bytes": 228,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-BRA/.verified_busbra.json",
+      "sha256": "884d0576d60feca8e8ef15315006d67003e544c804001e9f9a59f319ac68a3cf"
+    },
+    {
+      "bytes": 1470,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-BRA/busbra_data_gate.source.json",
+      "sha256": "0387025539ccb229f2001f69afcee1e422db7ceec53cd86c7244d60ad2d5c1a2"
+    },
+    {
+      "bytes": 548391,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-BRA/busbra_positive_manifest.csv",
+      "sha256": "c48ef28b01066846c776fbd480076d9dbad8c59bba0f6ede7c46c856f37649a9"
+    },
+    {
+      "bytes": 1052,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/FETCH_COMPLETE.json",
+      "sha256": "08ab3134ac1e68fbae9be8decf8f941458a1340ee3f8d6659ce3fad694227d70"
+    },
+    {
+      "bytes": 596532,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/api_snapshot.json",
+      "sha256": "cc1d29c7e50c23baefa39099a7cb3a4adaf3f2946397fbb6a7f286719509535a"
+    },
+    {
+      "bytes": 8194,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_data_gate.json",
+      "sha256": "daac26470c34eaf2a5210c4dea903a4afbda0cb750aa4d97beb491eaed02f747"
+    },
+    {
+      "bytes": 158843,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_dev.csv",
+      "sha256": "e13673f9e116c3e56cef194e4071ce5022c7930437f240225472913b2e86f5f6"
+    },
+    {
+      "bytes": 162241,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_fold0.csv",
+      "sha256": "3924f6349ce073cbea0cb39f670284ac9f8aa2ab00d2313ff301c8fc10e2a55b"
+    },
+    {
+      "bytes": 162247,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_fold1.csv",
+      "sha256": "6fcf3ae3947a3bd2ae3f9a55aea52d245e28774fa2fc22b0afee542a24e53934"
+    },
+    {
+      "bytes": 162253,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_fold2.csv",
+      "sha256": "d2b385bb374d6d8f99d12239c8cc6d7b50e3408883baaadaae52e9e7b25850e6"
+    },
+    {
+      "bytes": 162251,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_fold3.csv",
+      "sha256": "f5e955fe8d7ba8918ee524cfc90892d3a7aa470d9e69bb486f86d072a0c3ee4d"
+    },
+    {
+      "bytes": 162249,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_fold4.csv",
+      "sha256": "2fe90e14c44155652239b0a1206aad4dd3ab06bd03ba7058b316a153e5b4a049"
+    },
+    {
+      "bytes": 2505,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/busuclm_route2_summary.json",
+      "sha256": "6915a6dee5181fc1042c18d1dcf8f4067e8ae3785b9b7a65ac5fc521aeb60d97"
+    },
+    {
+      "bytes": 2410,
+      "executable": false,
+      "path": "bootstrap/evidence/BUS-UCLM/registry.yaml",
+      "sha256": "7b3ee71fa1355b531051883e4c6d088e7c43a79e4ddc3b8f1ee112c8c6f0782e"
+    },
+    {
+      "bytes": 1758,
+      "executable": false,
+      "path": "bootstrap/evidence/MANIFEST.sha256",
+      "sha256": "a613733f1ffb0c1835d1d8c66b27f55fa2b0259606a59476b0ceed8444f68b71"
+    },
+    {
+      "bytes": 2411,
+      "executable": false,
+      "path": "bootstrap/evidence/busuclm_component_audit.json",
+      "sha256": "01b5eb7071164d79dd7e10998fcbcf94fc7b092091839ffc8c61f15cf16e695f"
+    },
+    {
+      "bytes": 1476,
+      "executable": false,
+      "path": "ccfa.yaml",
+      "sha256": "9afe1cd01e604af9fc27ca605ce2e3f68bb0471499e91887cab76f6a43f72e3a"
+    },
+    {
+      "bytes": 3587,
+      "executable": false,
+      "path": "experiments/experiment-registry.yaml",
+      "sha256": "e95ca15546c220ca291d2391cec8c245f7d7dbe2436176efb9646d3e95655b20"
+    },
+    {
+      "bytes": 5244,
+      "executable": false,
+      "path": "gates/G0_RESEARCH_GATE.md",
+      "sha256": "2b2d76fe5dbd24a8d90e6f70c3eaaaa9ff5b658a8af978895ea7673cfcd68fb6"
+    },
+    {
+      "bytes": 1880,
+      "executable": false,
+      "path": "gates/G0_decision.json",
+      "sha256": "a755fad29cd389ebb7d9b83072cad77a8091f1f9544dc163158228ab00f35f0c"
+    },
+    {
+      "bytes": 2409,
+      "executable": false,
+      "path": "gates/G1_LOCAL_MICRO.json",
+      "sha256": "41942005df05953b97a578d5217d6bb89cfde8ef5b67332c47e96db3c751f3e5"
+    },
+    {
+      "bytes": 566,
+      "executable": false,
+      "path": "gates/G3_A0_DECISION.json",
+      "sha256": "db5f66fa2f740c4f5fa4852f2a6323cfd27119941bea2b137460ac7a13737fc5"
+    },
+    {
+      "bytes": 8615,
+      "executable": false,
+      "path": "gates/OFFICIAL_DATA_GATE.json",
+      "sha256": "1713fa1dff15d06f81a6f261c991e20e61bb366c122de49211528f9af2222d41"
+    },
+    {
+      "bytes": 4135,
+      "executable": false,
+      "path": "gates/OFFICIAL_DATA_GATE.md",
+      "sha256": "aa69236be9f7ae88612ea3f159b70ee7fe26506bb5244c18c2a92c924c0004e3"
+    },
+    {
+      "bytes": 800,
+      "executable": false,
+      "path": "gates/V2_3_PRETRAINING_STATUS.json",
+      "sha256": "8f37b35bade7b75db605304eb09bd87b303db4573181c524b81720537de6f411"
+    },
+    {
+      "bytes": 4105,
+      "executable": false,
+      "path": "gates/claim_evidence_ledger.csv",
+      "sha256": "de8eb47d9c65d7d6149aef2bebeda3b646aa7dee95a15ac944096beb03dd8206"
+    },
+    {
+      "bytes": 2461,
+      "executable": false,
+      "path": "gates/data_and_compute_feasibility.md",
+      "sha256": "9770f0a12d4dafece33ec3f9cabbf2265bfab36f0ff0361fd3d9fb9992632c96"
+    },
+    {
+      "bytes": 3346,
+      "executable": false,
+      "path": "gates/novelty_collision_matrix.csv",
+      "sha256": "12d582f1da59893b7e6600346579e3e3adf5783887a65558638f1d0c9eff541a"
+    },
+    {
+      "bytes": 216531,
+      "executable": false,
+      "path": "output/pdf/ScreenBUS_实验方案与科研动机_v2.3.pdf",
+      "sha256": "0f973732df73778113add3df3041bb51d9bc370228ffb1e0fbad9a6cfb119340"
+    },
+    {
+      "bytes": 890,
+      "executable": false,
+      "path": "project/PREDICTIVE_A0_PILOT_MANIFEST_SCHEMA.md",
+      "sha256": "fc01e87cdd5d1f221073e0ff6954023cadcb7013e175d75ed51d395f9595aa6c"
+    },
+    {
+      "bytes": 4478,
+      "executable": false,
+      "path": "project/route-freeze.md",
+      "sha256": "26c61fc51aa2a8d1c968518be71ae1fc9ea44455e368520851878de04ca055ea"
+    },
+    {
+      "bytes": 3345,
+      "executable": false,
+      "path": "prompts/ScreenBUS_Codex_双环境总控Prompt.md",
+      "sha256": "ce46b26a145dcd9253f1d8d4c82c128c7e4b8dcdc4bac9f872a4e2739a4d15cc"
+    },
+    {
+      "bytes": 1991,
+      "executable": false,
+      "path": "reports/V2_3_CANONICAL_VERIFIER_SYNTHETIC_EXECUTION.json",
+      "sha256": "4d548fbb822a8e630e7668ebde51cbf3276387ae99cae6458259e01ca2b522d9"
+    },
+    {
+      "bytes": 6468,
+      "executable": false,
+      "path": "reports/V2_3_PROTOCOL_SOURCE_REPAIR_AUDIT.md",
+      "sha256": "00cad1e2d98d011812cd0f05edc472ca80bfc223b325a9bbb00259749b517307"
+    },
+    {
+      "bytes": 18653,
+      "executable": false,
+      "path": "reports/build_screenbus_experiment_plan_v2_3.py",
+      "sha256": "59efdb41ab57349bca6543028b15bbd22bfc8f346fce39a90a478600a326d1d1"
+    },
+    {
+      "bytes": 157,
+      "executable": true,
+      "path": "screenbus.sh",
+      "sha256": "f657f209312601c12c847064968b80e92f66d97b320d9587b1f5ea119bd5aa61"
+    },
+    {
+      "bytes": 982,
+      "executable": false,
+      "path": "server_bundle/G2_ENVIRONMENT_AND_ASSETS_CN.md",
+      "sha256": "7b5dbe2d65bfe5ffa5b217ff3e6e6b4ace5e3c552ace595d3d007824fc68bdf3"
+    },
+    {
+      "bytes": 1918,
+      "executable": false,
+      "path": "server_bundle/README_SERVER_CN.md",
+      "sha256": "64c611ffb38f7a5fe0c0812fc2c2a2b52ba3a5521d389fbaeed4e1a213e852ed"
+    },
+    {
+      "bytes": 53,
+      "executable": false,
+      "path": "server_bundle/__init__.py",
+      "sha256": "8b2604e7a7d642a2652e47a1bd981a79071736e4564f69849e9466d69cf4833b"
+    },
+    {
+      "bytes": 57,
+      "executable": false,
+      "path": "server_bundle/data/__init__.py",
+      "sha256": "2a06e5ed4c7536b70065d6b4b5247176dc4b0510ad4605e77e2459f092f95f86"
+    },
+    {
+      "bytes": 113,
+      "executable": false,
+      "path": "server_bundle/data/fetch_official.py",
+      "sha256": "d7d8970c4e2779b485f650bfcbb13bd800e8e176e2f0448c72d097fea0bca6ec"
+    },
+    {
+      "bytes": 130,
+      "executable": false,
+      "path": "server_bundle/data/fetch_weights.py",
+      "sha256": "182bc03335661e9b3f1106fbfd47939211912eb265ac76903399adb7994bd247"
+    },
+    {
+      "bytes": 40787,
+      "executable": false,
+      "path": "server_bundle/data/official_assets.py",
+      "sha256": "0b64c554b3a713b64d9aa2fe3d1863375817acdf9605218cf428a4a84d2cbd05"
+    },
+    {
+      "bytes": 132,
+      "executable": false,
+      "path": "server_bundle/data/prepare_busuclm.py",
+      "sha256": "ffef52b7ba1aadbf4b8f718810bd0a282fe341ebf97f66144dcfeab839ee2338"
+    },
+    {
+      "bytes": 4170,
+      "executable": false,
+      "path": "server_bundle/env/bootstrap_env.sh",
+      "sha256": "9d803c9b78ef95763bbd04587adab3c8c006c49e12600e857c5276a94122b148"
+    },
+    {
+      "bytes": 530,
+      "executable": false,
+      "path": "server_bundle/env/requirements-cuda121.in",
+      "sha256": "83e4aa284e7d5be74452b056e5214ae3ad134c08a5bcf49571c0efb6d62d6b72"
+    },
+    {
+      "bytes": 133375,
+      "executable": false,
+      "path": "server_bundle/env/requirements-cuda121.lock.txt",
+      "sha256": "70754a85f7a99f8293801c88a26a0a9e433ac47124938532dc3aec3ec5c0c5d9"
+    },
+    {
+      "bytes": 2095,
+      "executable": true,
+      "path": "server_bundle/env/run_in_frozen_container.sh",
+      "sha256": "63d8590e644f6aeda5d12f2991f383cac227743a233c0875148901bf52e030bc"
+    },
+    {
+      "bytes": 7886,
+      "executable": false,
+      "path": "server_bundle/env/write_manifest.py",
+      "sha256": "e16bfd210091a994e0e4637ecf768aeb4ca78904dade23302cbf621d05382af7"
+    },
+    {
+      "bytes": 43,
+      "executable": false,
+      "path": "server_bundle/g2/__init__.py",
+      "sha256": "ed65c07019d4a47076146911eb654433a18f7be62d1d9a9d6ed385b28862c33f"
+    },
+    {
+      "bytes": 1311,
+      "executable": false,
+      "path": "server_bundle/g2/determinism_worker.py",
+      "sha256": "9e5c380d92c04be441c30c60862305569bc3f31b608a1712093bcabc2c5d4304"
+    },
+    {
+      "bytes": 43499,
+      "executable": false,
+      "path": "server_bundle/g2/g2_doctor.py",
+      "sha256": "991bd6c9552d498d52442c97c2664aae531a366786b273380e42a141bc5ba8ca"
+    },
+    {
+      "bytes": 8100,
+      "executable": false,
+      "path": "server_bundle/g2/nnunet_probe.py",
+      "sha256": "6ff9bfbc8dde32734f8b6ca544a79a88a045e1e470e560532e0c280caa6cddb7"
+    },
+    {
+      "bytes": 281,
+      "executable": true,
+      "path": "server_bundle/ops/__init__.py",
+      "sha256": "d01995ff162c8ce0bd2e2ed0e3ba4917718005b9f6c82c629367e2d0017be91b"
+    },
+    {
+      "bytes": 17059,
+      "executable": true,
+      "path": "server_bundle/ops/archive_results.py",
+      "sha256": "f48282fd8245887c856362f05701de416d959903ae7082a342a9d059874e52c7"
+    },
+    {
+      "bytes": 460,
+      "executable": false,
+      "path": "server_bundle/ops/build_pre_a0_v2_1_bundle.py",
+      "sha256": "df742d632e00af07799fd47f8e67bd6d74ecb61c2790dcd32feb823a85200848"
+    },
+    {
+      "bytes": 28795,
+      "executable": true,
+      "path": "server_bundle/ops/build_upload_bundle.py",
+      "sha256": "be78819c57b1ae6283e6977c36177eab193e404220545a4a55f32bfbca5ddfd0"
+    },
+    {
+      "bytes": 736,
+      "executable": false,
+      "path": "server_bundle/ops/g3_validation.py",
+      "sha256": "69a6ae3aa9a1e42d2dba145eb97e744e607a2b9a2284ac9b3cba744d031aa3ed"
+    },
+    {
+      "bytes": 9919,
+      "executable": true,
+      "path": "server_bundle/ops/inspect_results.py",
+      "sha256": "dd3284f2025e3d849a45651c34a5c70a867458c05bbe07f8c8c563f925e0e8b1"
+    },
+    {
+      "bytes": 19219,
+      "executable": false,
+      "path": "server_bundle/ops/orchestrator.py",
+      "sha256": "66b378f6e2950b6e50e61c21be1e0c6a8ba23d07a4ec9bf87a0c7dd8cef41308"
+    },
+    {
+      "bytes": 4571,
+      "executable": true,
+      "path": "server_bundle/ops/resources.py",
+      "sha256": "6661aa0ad456e8f5b91366102b4c6430b21727fbf52279ffa6fc99fb1c67df5c"
+    },
+    {
+      "bytes": 5256,
+      "executable": false,
+      "path": "server_bundle/ops/run_v2_3_synthetic_integration.py",
+      "sha256": "d57ac74d9b29018947044a100fedd5700d7c2fd893c85259ac46b9344e84ea51"
+    },
+    {
+      "bytes": 8331,
+      "executable": false,
+      "path": "server_bundle/ops/status_store.py",
+      "sha256": "9e51f680dcee7f5035498467d3f5773d0a5091ba42df4a7ed93bacb48f010188"
+    },
+    {
+      "bytes": 1838,
+      "executable": false,
+      "path": "server_bundle/schemas/engineering_a0_v2_3_output.schema.json",
+      "sha256": "9657c98d1616b25403a6187b8dcd3d732f1fc45c435a15481b32c1e0a26ba7c4"
+    },
+    {
+      "bytes": 1890,
+      "executable": false,
+      "path": "server_bundle/schemas/g3_a0_decision.schema.json",
+      "sha256": "cc5721717b591ab53debe1525ef12450285e1196b0235307266ac9f2ffe93547"
+    },
+    {
+      "bytes": 2529,
+      "executable": false,
+      "path": "server_bundle/schemas/phase1_v2_3_output.schema.json",
+      "sha256": "a1296ecf1fb3582e498de0ae681da68bc6b30e1f0b0e014e9c589961f2735e3e"
+    },
+    {
+      "bytes": 299,
+      "executable": false,
+      "path": "server_bundle/schemas/predictive_a0_v2_1_output.schema.json",
+      "sha256": "8d8a7d20990d86d4e3ec8d51986b76dafc197661fe9fc59d8453211b03879650"
+    },
+    {
+      "bytes": 321,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/__init__.py",
+      "sha256": "e25360744bb6cda2477f9f55ccb5f4755ea0e0deb0e69e46a532cb92541b4884"
+    },
+    {
+      "bytes": 81,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/__main__.py",
+      "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+    },
+    {
+      "bytes": 25801,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/authorization.py",
+      "sha256": "6653822383b63e817befef169e70d2712bcd37157671172828772f645549a79b"
+    },
+    {
+      "bytes": 23783,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/autobusam_baseline.py",
+      "sha256": "51540e3f615ce07e6df0c901c70ec7c5ba298ee6beba8e76d24ad1908a8eea34"
+    },
+    {
+      "bytes": 8984,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/baselines.py",
+      "sha256": "1a7a30bcbdf3feec7dc27c6431aba9a285b6d2a44177c1e7968f0c79c15037fa"
+    },
+    {
+      "bytes": 20042,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/candidates.py",
+      "sha256": "593dfa1ea51b998996e0eef5b52c9e715787db3d4f2e2e2686af3c87c7f1f964"
+    },
+    {
+      "bytes": 4579,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/cli.py",
+      "sha256": "9c2d030bfb4b5615163d59bbbb65f3b820c2f0ceeaf1235a74b5cf86455a03c2"
+    },
+    {
+      "bytes": 13088,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/config.py",
+      "sha256": "e85a7b0a1042cc7aa05b2d4ef35e3bde52230516eee308809ba6de215df61836"
+    },
+    {
+      "bytes": 1030,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/configs/engineering_a0.yaml",
+      "sha256": "ce01acd20a11422c0099acc1b53601b8906c020d11ecb6c4536ea72ac03de83c"
+    },
+    {
+      "bytes": 7802,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/configs/full_cv.yaml",
+      "sha256": "ba225d7979191ebaea535f3beed437657fc2338d3ae8ce0525fffebf95f7b8dc"
+    },
+    {
+      "bytes": 6403,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/configs/server_a0.yaml",
+      "sha256": "e842cc087b8b2feea88b785c56390233bb138f626ba5a399b20fe2760af0e71b"
+    },
+    {
+      "bytes": 14384,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/data.py",
+      "sha256": "d1f034226d3251e5080b6f0569d616c9a1a3362ef2a8427b68439247df02c649"
+    },
+    {
+      "bytes": 15437,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/engineering_a0.py",
+      "sha256": "513dcd1c929f6160cfe7e9ed4da24b2275fc9780880c6058e83b93d20a0a56e4"
+    },
+    {
+      "bytes": 81738,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/full_runner.py",
+      "sha256": "3c75302f58a629d207174f8aa89a660d9bffbcd5f07e5dcacb422444e7c197e4"
+    },
+    {
+      "bytes": 2765,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/g3_method_gate.py",
+      "sha256": "ea385c71327f035685694529d1a6f88d603386c0c16f3e7d37086a434424ce86"
+    },
+    {
+      "bytes": 6932,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/g3_validation.py",
+      "sha256": "f37c8cc858267b298997187ba6ce46dfdb47758f0c970fa21fb3c9244b7fc3bb"
+    },
+    {
+      "bytes": 7094,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/leakage_ablation.py",
+      "sha256": "1d14709ca2afbd1cc2e2ebaf8bf294027e4a743b1059b1ea0c314734c7d927f1"
+    },
+    {
+      "bytes": 48420,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/metrics.py",
+      "sha256": "55b0fb17301b812f9fdc18a7a9b650f0d2f17fa8f6667d17b59f563a3c08d93b"
+    },
+    {
+      "bytes": 19248,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/models.py",
+      "sha256": "856b1c45332dfe0add25c25f7b026a44358e3d74a569a54087074325082ac02a"
+    },
+    {
+      "bytes": 63879,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/nnunet_baseline.py",
+      "sha256": "fedd85013ea7eed28644f16a517a46d8630413509f8022192ff991fe7d29577a"
+    },
+    {
+      "bytes": 9975,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/nnunet_seeded_launcher.py",
+      "sha256": "7ebb1fb615bc299e3fcf021cdb7e775f0dea7ae74c5d681c5d1b3452390b3afe"
+    },
+    {
+      "bytes": 1980,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/nnunet_trainers.py",
+      "sha256": "276f4095744c757c843dbbc96da6db9bb55b18a179550b2f6389659d4c969fe0"
+    },
+    {
+      "bytes": 23330,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/phase1_runner.py",
+      "sha256": "31185658e5061fc74cc099c930216aea3ab4fe166c2c6a09685eea485a1e92b9"
+    },
+    {
+      "bytes": 16407,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/pipeline.py",
+      "sha256": "7c7ff05ab430dd0840087050650a99425c6dc3d2c558ae4eca6023b6a0ba03e0"
+    },
+    {
+      "bytes": 119,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/protocol_v2_1.py",
+      "sha256": "cac0becd1bae6a9d2f7fe963ff2a98e34750f5eb21e5f2afab423c0f24dafa40"
+    },
+    {
+      "bytes": 566,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/protocol_v2_2.py",
+      "sha256": "059e8d16152dde2f2a8dddff3b8c92d06188b6964615ff58e1f874771e0b4dff"
+    },
+    {
+      "bytes": 12623,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/protocol_v2_3.py",
+      "sha256": "bae2671f853fceeefab5a49bb93bdb5bdec9485cc54e81960f5f1e4f67cbd6d4"
+    },
+    {
+      "bytes": 43147,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/refine_verify.py",
+      "sha256": "8ee79532f1b72a3e58a0e6b0ee0a1cbbb5c96ae120cf8523e0c86cfa527bbd1b"
+    },
+    {
+      "bytes": 58133,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/scheduler.py",
+      "sha256": "e22ab82a67a65bd9eb9f4bec16afa3084aa4c32fb25d8478610a4856d66e0e7c"
+    },
+    {
+      "bytes": 6429,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/task_launcher.py",
+      "sha256": "69c7226b9d38d46af28301f3b4571d0fcc11a92ca7d67cf396fabae61e2f8a41"
+    },
+    {
+      "bytes": 29509,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/training.py",
+      "sha256": "ebb22c850abba8fe31f6bcb53af6895ffae46b4f7d05cefe40f315ed41facca7"
+    },
+    {
+      "bytes": 6321,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/util.py",
+      "sha256": "fbc8ea2e89c3a9c6736a9d0eace055a31357d9a7a458e8de252d6b4b8776cf9e"
+    },
+    {
+      "bytes": 72619,
+      "executable": false,
+      "path": "server_bundle/screenbus_a0_v2/worker.py",
+      "sha256": "c89d91984a098da37b2a77aeeb91403cbff5c7aeba0d39cab69077d0b5d27127"
+    },
+    {
+      "bytes": 6218,
+      "executable": true,
+      "path": "server_bundle/screenbus_server.sh",
+      "sha256": "f898647bf4192f01201bf4d0d19b42242d89de2473ce50350b2ed480d191c30a"
+    }
+  ],
+  "protocol_version": "2.3",
+  "schema_version": 2,
+  "scientific_gate_claim": "NONE_PRE_PHASE1_TRANSPORT_ONLY"
+}
